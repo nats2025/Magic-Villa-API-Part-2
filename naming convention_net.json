@@ -1,0 +1,34 @@
+{
+    "namingConventions": {
+        "classes": {
+            "PascalCase": true
+        },
+        "methods": {
+            "PascalCase": true
+        },
+        "variables": {
+            "camelCase": true
+        },
+        "constants": {
+            "UPPERCASE_WITH_UNDERSCORES": true
+        },
+        "namespaces": {
+            "PascalCase": true
+        }
+    },
+    "codingStandards": {
+        "indentation": {
+            "type": "spaces",
+            "size": 4
+        },
+        "lineLength": 120,
+        "usings": {
+            "order": [
+                "System",
+                "Microsoft",
+                "ThirdParty",
+                "LocalProject"
+            ]
+        }
+    }
+}
