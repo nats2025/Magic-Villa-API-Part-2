@@ -16,6 +16,7 @@ namespace MagicVilla_Web.Controllers
     {
         private readonly IAuthService _authService;
         private readonly ITokenProvider _tokenProvider;
+        private readonly Inats_test;
         public AuthController(IAuthService authService, ITokenProvider tokenProvider)
         {
             _authService = authService;
