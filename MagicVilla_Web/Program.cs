@@ -7,7 +7,6 @@ using MagicVilla_Web.Extensions;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-//workflow test
 
 builder.Services.AddControllersWithViews(u=>u.Filters.Add(new AuthExceptionRedirection()));
 builder.Services.AddAutoMapper(typeof(MappingConfig));
