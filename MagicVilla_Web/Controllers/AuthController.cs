@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Newtonsoft.Json;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
+using System.Security.*;
 
 namespace MagicVilla_Web.Controllers
 {
@@ -16,7 +17,6 @@ namespace MagicVilla_Web.Controllers
     {
         private readonly IAuthService _authService;
         private readonly ITokenProvider _tokenProvider;
-      //private readonly Inats _test;
         public AuthController(IAuthService authService, ITokenProvider tokenProvider)
         {
             _authService = authService;
