@@ -3,6 +3,8 @@ using MagicVilla_Web.Services.IServices;
 using MagicVilla_Web.Services;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using MagicVilla_Web.Extensions;
+﻿using MagicVilla_Utility;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
