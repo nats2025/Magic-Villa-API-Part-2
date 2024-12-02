@@ -107,7 +107,7 @@ namespace MagicVilla_Web.Controllers
             return View();
         }
 
-        public IActionResult accessdenied()
+         public IActionResult accessdenied_new()
         {
             return View();
         }
